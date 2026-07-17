@@ -47,16 +47,7 @@ A full-featured **Streamlit** web application for backtesting trading strategies
 - **Change Password** after login
 - Credentials stored in local SQLite database (passwords hashed with SHA-256)
 
-### Admin Panel
-- Admin account: `administrator` / `Jitu4680**` (change password after first login)
-- View user statistics (total users, active users)
-- User management: view all users, edit email/mobile/status
-- Reset any user's password
-- Delete user accounts
-- Change own admin password
-- Admin account is protected from deletion and self-reset
 
----
 
 ## Project Structure
 
@@ -180,19 +171,7 @@ All parameters are editable in the sidebar.
 
 ---
 
-## Admin Panel
 
-Login as admin to access the admin panel with three tabs:
-
-- **Statistics**: View total and active user counts
-- **User Management**: View all users, edit details, reset passwords, delete accounts
-- **Change Admin Password**: Change the admin account password
-
-Admin account is protected:
-- Cannot be deleted
-- Cannot be self-reset from admin panel (must use Change Password form)
-
----
 
 ## Database
 
