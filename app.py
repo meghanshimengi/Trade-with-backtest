@@ -50,6 +50,12 @@ st.markdown("""
                         border-radius: 4px; font-weight: bold; }
     .broker-disconnected { background-color: #f8d7da; color: #721c24; padding: 6px 12px;
                            border-radius: 4px; }
+    #MainMenu { visibility: hidden; }
+   footer { visibility: hidden; }
+    header { visibility: hidden; }
+    .stDeployButton { display: none; }
+    div[data-testid="stDecoration"] { display: none; }
+    .stAppToolbar { visibility: hidden; }
 </style>
 """, unsafe_allow_html=True)
 
