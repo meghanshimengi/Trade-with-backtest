@@ -28,9 +28,10 @@ from database import (
 # Page config
 # ---------------------------------------------------------------------------
 st.set_page_config(
-    page_title="Indian Market Backtester & Live Trader",
-    page_icon="📈",
-    layout="wide",
+    page_title="My App", 
+    layout="wide", 
+    initial_sidebar_state="auto",
+    menu_items=None
 )
 
 st.markdown("""
